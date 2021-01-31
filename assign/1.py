@@ -34,5 +34,5 @@ try:
 	print ("a valid json ",json_object)  
 except: 
 	print ("not a valid json") 
-	print ("initial string",jsonData) 
+	print ("initial string",json_object) 
 	
