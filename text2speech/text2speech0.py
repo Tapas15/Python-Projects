@@ -1,11 +1,12 @@
 # Import the Gtts module for text  
-# to speech conversion 
+# to speech conversion
+#pip install gTTS
 from gtts import gTTS 
   
 # import Os module to start the audio file
 import os 
   
-mytext = 'Hello my name is Bubu'
+mytext = 'Hello my name is manas kumar mahanandia'
   
 # Language we want to use 
 language = 'en-US'
