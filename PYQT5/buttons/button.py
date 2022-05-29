@@ -9,7 +9,7 @@ class mywindow(QMainWindow):
         super().__init__()#why used super class
         self.setGeometry(600,300,400,400)
         self.setWindowTitle("My title")
-        self.setWindowIcon(QIcon("my.png"))
+        self.setWindowIcon(QIcon("../my.png"))
         #self.setStyleSheet('color:red')
         #self.setStyleSheet('background-color:red')
         #self.setWindowOpacity(0.5)
